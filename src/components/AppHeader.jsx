@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { translations } from '../i18n/translations.js';
 import { useLocale } from '../i18n/LocaleContext.jsx';
-import logoSrc from '../assets/logo.png';
+import logoSrc from '../../public/assets/logo.png';
 import {
   IconArrowRight,
   IconCart,
