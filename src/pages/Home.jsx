@@ -9,7 +9,7 @@ const heroSlides = [
   {
     id: 'slide-1',
     image:
-      'https://images.unsplash.com/photo-1448043552756-e747b7a2b2b8?auto=format&fit=crop&w=1400&q=80',
+      'src/assets/img_panel/sieuthi.jpg',
     highlights: [
       { icon: '🌿', titleKey: 'home.hero.highlights.organic', descriptionKey: 'home.hero.highlights.organicDesc' },
       { icon: '⚡', titleKey: 'home.hero.highlights.delivery', descriptionKey: 'home.hero.highlights.deliveryDesc' },
@@ -19,7 +19,7 @@ const heroSlides = [
   {
     id: 'slide-2',
     image:
-      'https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1400&q=80',
+      'src/assets/img_panel/hoa qua.jpg',
     highlights: [
       { icon: '🌿', titleKey: 'home.hero.highlights.organic', descriptionKey: 'home.hero.highlights.organicDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }
@@ -28,7 +28,7 @@ const heroSlides = [
   {
     id: 'slide-3',
     image:
-      'https://images.unsplash.com/photo-1484980972926-edee96e0960d?auto=format&fit=crop&w=1400&q=80',
+      'src/assets/img_panel/z7193490915740_62625b0e61a416597fc2f0cd734e16a2.jpg',
     highlights: [
       { icon: '⚡', titleKey: 'home.hero.highlights.delivery', descriptionKey: 'home.hero.highlights.deliveryDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }
@@ -48,17 +48,17 @@ const newsMeta = [
   {
     id: 'news-1',
     image:
-      'https://images.unsplash.com/photo-1542444459-db68f79c3602?auto=format&fit=crop&w=600&q=80'
+      'src/assets/img_panel/juice.jpg'
   },
   {
     id: 'news-2',
     image:
-      'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80'
+      'src/assets/img_panel/mohanad-karawanchy-V_l-CW3jkw0-unsplash.jpg'
   },
   {
     id: 'news-3',
     image:
-      'https://images.unsplash.com/photo-1505935428862-770b6f24f629?auto=format&fit=crop&w=600&q=80'
+      'src/assets/img_panel/diana-oborska-eS07Cany2g4-unsplash.jpg'
   }
 ];
 
@@ -326,7 +326,7 @@ function Home({ products, loading, errorMessage, onExploreShop }) {
                 <div className="space-y-2">
                   <h3 className="text-lg font-semibold text-slate-900">{product.name}</h3>
                   <p className="text-sm text-slate-500">
-                    ${product.price.toFixed(2)}
+                    {product.price.toFixed(3)}đ
                   </p>
                 </div>
                 <button

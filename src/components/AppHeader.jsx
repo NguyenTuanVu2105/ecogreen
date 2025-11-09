@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { translations } from '../i18n/translations.js';
 import { useLocale } from '../i18n/LocaleContext.jsx';
-import logoSrc from '../assets/logo.svg';
+import logoSrc from '../assets/logo.png';
 import {
   IconArrowRight,
   IconCart,
@@ -82,7 +82,7 @@ function AppHeader({ activePage = 'home', onNavigate = () => {} }) {
       <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-6">
         <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3">
-            <img src={logoSrc} alt="Ecobazar" className="h-10 w-auto" />
+            <img src={logoSrc} alt="Ecobazar" className="h-[150px] w-[150px] "/>
           </div>
 
           <form className="relative flex w-full max-w-2xl items-center rounded-full border border-slate-200 bg-white pl-5 pr-1 shadow-sm shadow-slate-200/40">
@@ -125,7 +125,7 @@ function AppHeader({ activePage = 'home', onNavigate = () => {} }) {
                 <div className="text-xs uppercase text-slate-400">
                   {t('header.cartLabel')}
                 </div>
-                <div className="font-semibold text-slate-900">$57.00</div>
+                <div className="font-semibold text-slate-900">150.000đ</div>
               </div>
             </div>
           </div>
@@ -165,8 +165,8 @@ function AppHeader({ activePage = 'home', onNavigate = () => {} }) {
             </span>
             <div>
               <div className="text-xs uppercase text-slate-400">{t('header.hotlineLabel')}</div>
-              <a href="tel:2295550114" className="font-semibold text-slate-900">
-                (229) 555-0114
+              <a href="tel:0397877618" className="font-semibold text-slate-900">
+                0397877618
               </a>
             </div>
           </div>

@@ -68,7 +68,7 @@ export const translations = {
         meatFish: 'Thịt & Hải sản',
         breadBakery: 'Bánh mì & Làm bánh'
       },
-      footerBottom: '© ${year} Ecogreen. Đã đăng ký bản quyền.',
+      footerBottom: '© ${year} SmartBuy. Đã đăng ký bản quyền.',
       footerPolicies: {
         privacy: 'Chính sách bảo mật',
         terms: 'Điều khoản',
@@ -78,7 +78,7 @@ export const translations = {
       alertErrorDescription: 'Không thể tải danh sách sản phẩm.'
     },
     header: {
-      location: 'Địa chỉ cửa hàng: 344 Ebrick, Chicago, USA',
+      location: 'Địa chỉ cửa hàng: Hoa Lac Hi-tech Park, km 29, Đại lộ, Thăng Long, Hà Nội, Vietnam',
       searchPlaceholder: 'Tìm kiếm',
       searchButton: 'Tìm kiếm',
       signIn: 'Đăng nhập / Đăng ký',
@@ -126,19 +126,19 @@ export const translations = {
     },
     home: {
       hero: {
-        badge: 'Giảm giá đến 20%',
-        title: 'Thực phẩm hữu cơ tươi ngon & lành mạnh',
+        badge: 'Giảm giá đến 50%',
+        title: 'Thực phẩm tươi ngon & lành mạnh',
         subtitle:
           'Mỗi sản phẩm đều trải qua quy trình tuyển chọn khắt khe từ trang trại canh tác hữu cơ, đảm bảo độ tươi mới và dinh dưỡng tối ưu cho gia đình bạn.',
         primaryCta: 'Mua ngay',
-        secondaryCta: 'Tìm hiểu trang trại',
+        secondaryCta: 'Tìm hiểu sản phẩm',
         highlights: {
-          organic: '100% hữu cơ chuẩn GlobalG.A.P',
-          organicDesc: 'Nguyên liệu được thu hoạch mỗi sáng từ trang trại Ecogreen.',
+          organic: '100% đạt chuẩn an toàn ',
+          organicDesc: 'Nguyên liệu được kiểm tra kĩ lưỡng về an toàn thực phẩm',
           delivery: 'Giao hàng trong 2 giờ',
           deliveryDesc: 'Dịch vụ giao nhanh toàn thành phố giữ trọn độ tươi ngon.',
           discount: 'Ưu đãi 20% cho đơn đầu tiên',
-          discountDesc: 'Đăng ký thành viên Ecogreen để nhận thêm nhiều khuyến mãi.'
+          discountDesc: 'Đăng ký thành viên SmartBuy để nhận thêm nhiều khuyến mãi.'
         }
       },
       featured: {
@@ -191,7 +191,7 @@ export const translations = {
         { value: '750k+', label: 'Đơn hàng đã giao' }
       ],
       bestSeller: {
-        title: 'Best Seller Products',
+        title: 'Sản phẩm bán chạy',
         viewMore: 'Xem thêm'
       },
       news: {
@@ -244,26 +244,26 @@ export const translations = {
         ]
       },
       contact: [
-        { title: 'Địa chỉ cửa hàng', detail: '344 Ebrick, Chicago, USA' },
-        { title: 'Hotline', detail: '(229) 555-0114' },
-        { title: 'Email hỗ trợ', detail: 'support@ecogreen.com' },
+        { title: 'Địa chỉ cửa hàng', detail: 'Hòa Lạc Hi-Tech Park, km 29, Đại lộ Thăng Long, Hà Nội, Việt Nam' },
+        { title: 'Hotline', detail: '0397877618' },
+        { title: 'Email hỗ trợ', detail: 'smartbuy@gmail.com' },
         { title: 'Giờ làm việc', detail: '08:00 - 21:00 (Thứ 2 - Chủ Nhật)' }
       ]
     },
     about: {
       hero: {
-        eyebrow: 'Về Ecogreen',
-        title: 'Cửa hàng thực phẩm hữu cơ đáng tin cậy 100%',
+        eyebrow: 'Về SmartBuy',
+        title: 'Cửa hàng thực phẩm đáng tin cậy 100%',
         description:
-          'Chúng tôi hợp tác với những trang trại canh tác hữu cơ uy tín, đảm bảo quy trình minh bạch từ khâu gieo trồng đến đóng gói. Mọi sản phẩm đều trải qua nhiều vòng kiểm định chất lượng nghiêm ngặt trước khi đến tay khách hàng.',
+          'Chúng tôi hợp tác với những siêu thị uy tín, đảm bảo quy trình minh bạch từ khâu nhập khẩu đến đóng gói. Mọi sản phẩm đều trải qua nhiều vòng kiểm định chất lượng nghiêm ngặt trước khi đến tay khách hàng.',
         cta: 'Khám phá sản phẩm'
       },
       trust: {
-        title: '100% Trusted Organic Food Store',
+        title: '100% Thực phẩm đạt chuẩn',
         description:
-          'Đội ngũ nông dân và chuyên gia dinh dưỡng luôn đồng hành để mang đến nguồn thực phẩm sạch, tươi mới và tốt cho sức khỏe. Chúng tôi tin rằng bữa ăn lành mạnh bắt đầu từ việc lựa chọn nguyên liệu thuần tự nhiên.',
+          'Đội ngũ chuyên gia dinh dưỡng luôn đồng hành để mang đến nguồn thực phẩm sạch, tươi mới và tốt cho sức khỏe. Chúng tôi tin rằng bữa ăn lành mạnh bắt đầu từ việc lựa chọn nguyên liệu thuần tự nhiên.',
         stats: [
-          { label: 'Nông trại hợp tác', value: '37+' },
+          { label: 'Siêu thị hợp tác', value: '37+' },
           { label: 'Khách hàng thân thiết', value: '500k+' },
           { label: 'Đơn hàng mỗi năm', value: '750k+' }
         ]
@@ -295,10 +295,12 @@ export const translations = {
         subtitle:
           'Những con người đồng hành cùng Ecogreen trong hành trình lan tỏa lối sống lành mạnh.',
         members: [
-          { name: 'Jenny Wilson', role: 'Đồng sáng lập' },
-          { name: 'Jane Cooper', role: 'Chuyên gia dinh dưỡng' },
-          { name: 'Cody Fisher', role: 'Giám sát chuỗi cung ứng' },
-          { name: 'Robert Fox', role: 'Quản lý trang trại' }
+          { name: 'Phạm Thanh Thảo', role: 'CEO' },
+          { name: 'Khuất Thị Kim Dung', role: 'CMO' },
+          { name: 'Chử Hữu Thành', role: 'CTO' },
+          { name: 'Nguyễn Chí Tùng Dương', role: 'CPO' },
+          { name: 'Đặng Ngọc Thành', role: 'COO' },
+          { name: 'Trần Thái Lâm', role: 'CFO' }
         ]
       },
       testimonials: {
@@ -338,11 +340,11 @@ export const translations = {
       },
       info: {
         addressTitle: 'Địa chỉ văn phòng',
-        address: '2715 Ash Dr. San Jose, South Dakota 83475',
+        address: 'Hoa Lac Hi-tech Park, km 29, Đại lộ, Thăng Long, Hà Nội, Vietnam',
         emailTitle: 'Email hỗ trợ',
-        emails: ['support@ecogreen.com', 'hello@ecogreen.com'],
+        emails: ['smartbuy@gmail.com', 'kayt1206.js@gmail.com'],
         phoneTitle: 'Hotline',
-        phones: ['(229) 555-0114', '(646) 333-0487']
+        phones: ['0397877618', '0987654321']
       },
       form: {
         title: 'Gửi lời chào!',
@@ -361,7 +363,7 @@ export const translations = {
         messageRequired: 'Vui lòng nhập lời nhắn.'
       },
       map: {
-        caption: '2975 Telegraph Ave, Berkeley, CA'
+        caption: 'Hoa Lac Hi-tech Park, km 29, Đại lộ, Thăng Long, Hà Nội, Vietnam'
       }
     },
     mealPlanner: {
@@ -516,7 +518,7 @@ export const translations = {
       alertErrorDescription: 'We could not load the product list.'
     },
     header: {
-      location: 'Store location: 344 Ebrick, Chicago, USA',
+      location: 'Store location: Hoa Lac Hi-tech Park, km 29, Đại lộ, Thăng Long, Hà Nội, Vietnam',
       searchPlaceholder: 'Search',
       searchButton: 'Search',
       signIn: 'Sign In / Sign Up',
@@ -682,7 +684,7 @@ export const translations = {
         ]
       },
       contact: [
-        { title: 'Store address', detail: '344 Ebrick, Chicago, USA' },
+        { title: 'Store address', detail: 'Hoa Lac Hi-tech Park, km 29, Đại lộ, Thăng Long, Hà Nội, Vietnam' },
         { title: 'Hotline', detail: '(229) 555-0114' },
         { title: 'Support email', detail: 'support@ecogreen.com' },
         { title: 'Working hours', detail: '08:00 - 9:00 PM (Mon - Sun)' }
@@ -690,7 +692,7 @@ export const translations = {
     },
     about: {
       hero: {
-        eyebrow: 'About Ecogreen',
+        eyebrow: 'About SmartBuy',
         title: 'A trusted organic food store for every family',
         description:
           'We partner with certified organic farms and maintain transparent sourcing from seed to shelf. Every item passes multiple quality checks before leaving our warehouse so you can cook with confidence.',

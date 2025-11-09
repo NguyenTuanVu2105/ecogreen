@@ -3,21 +3,24 @@ import Newsletter from '../components/Newsletter.jsx';
 import { IconCheckCircle, IconStar } from '../components/icons.jsx';
 
 const heroImage =
-  'https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=900&q=80';
+  'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg';
 const trustImage =
-  'https://images.unsplash.com/photo-1489440543286-a69330151c0a?auto=format&fit=crop&w=900&q=80';
+  'https://images.pexels.com/photos/5726794/pexels-photo-5726794.jpeg';
 const deliveryImage =
-  'https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=900&q=80';
+  'https://images.pexels.com/photos/7563654/pexels-photo-7563654.jpeg';
 const courierImage =
-  'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80';
+  'https://images.pexels.com/photos/5025669/pexels-photo-5025669.jpeg';
 
 const benefitIcons = ['✅', '🎧', '💳', '🎁', '😊', '📍'];
 
 const teamImages = [
-  'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=crop&w=400&q=80',
-  'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80',
-  'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80',
-  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80'
+  'src/assets/img_team_founder/ptt.jpg',
+  'src/assets/img_team_founder/ktkd.jpg',
+  'src/assets/img_team_founder/unnamed.png',
+  'src/assets/img_team_founder/nctd.jpg',
+  'src/assets/img_team_founder/dnt.jpg',
+  'src/assets/img_team_founder/ttl.jpg'
+
 ];
 
 const testimonialAvatars = [
@@ -137,7 +140,7 @@ function About() {
           <h2 className="text-3xl font-semibold text-slate-900">{team.title}</h2>
           <p className="text-sm text-slate-500">{team.subtitle}</p>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-4 lg:grid-cols-6">
           {team.members?.map((member, index) => (
             <div
               key={member.name}
