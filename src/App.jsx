@@ -7,6 +7,7 @@ import Contact from './pages/Contact.jsx';
 import Shop from './pages/Shop.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
 import MealPlanner from './pages/MealPlanner.jsx';
+import BMI from './pages/BMI.jsx'
 import { LocaleProvider, useLocale } from './i18n/LocaleContext.jsx';
 
 function AppInner() {
@@ -133,6 +134,8 @@ function AppInner() {
             onProductClick={handleViewProduct}
           />
         );
+        case'bmi':
+        return <BMI/>
       default:
         return (
           <Shop
@@ -184,7 +187,7 @@ function parseHash(hash) {
     const [, productId] = clean.split('/');
     return { page: 'product', productId };
   }
-  const allowed = new Set(['shop', 'about', 'contact', 'mealPlanner']);
+  const allowed = new Set(['shop', 'about', 'contact', 'mealPlanner','bmi']);
   if (allowed.has(clean)) {
     return { page: clean };
   }

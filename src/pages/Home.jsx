@@ -9,7 +9,7 @@ const heroSlides = [
   {
     id: 'slide-1',
     image:
-      'src/assets/img_panel/sieuthi.jpg',
+      'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/sieu_thi_mini_0d7c4b1988.png',
     highlights: [
       { icon: '🌿', titleKey: 'home.hero.highlights.organic', descriptionKey: 'home.hero.highlights.organicDesc' },
       { icon: '⚡', titleKey: 'home.hero.highlights.delivery', descriptionKey: 'home.hero.highlights.deliveryDesc' },
@@ -19,7 +19,7 @@ const heroSlides = [
   {
     id: 'slide-2',
     image:
-      'src/assets/img_panel/hoa qua.jpg',
+      '',
     highlights: [
       { icon: '🌿', titleKey: 'home.hero.highlights.organic', descriptionKey: 'home.hero.highlights.organicDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }
@@ -28,7 +28,7 @@ const heroSlides = [
   {
     id: 'slide-3',
     image:
-      'src/assets/img_panel/z7193490915740_62625b0e61a416597fc2f0cd734e16a2.jpg',
+      '',
     highlights: [
       { icon: '⚡', titleKey: 'home.hero.highlights.delivery', descriptionKey: 'home.hero.highlights.deliveryDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }
@@ -48,17 +48,17 @@ const newsMeta = [
   {
     id: 'news-1',
     image:
-      'src/assets/img_panel/juice.jpg'
+      ''
   },
   {
     id: 'news-2',
     image:
-      'src/assets/img_panel/mohanad-karawanchy-V_l-CW3jkw0-unsplash.jpg'
+      ''
   },
   {
     id: 'news-3',
     image:
-      'src/assets/img_panel/diana-oborska-eS07Cany2g4-unsplash.jpg'
+      ''
   }
 ];
 
