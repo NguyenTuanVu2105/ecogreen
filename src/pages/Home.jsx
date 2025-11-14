@@ -19,7 +19,7 @@ const heroSlides = [
   {
     id: 'slide-2',
     image:
-      '',
+      'public/assets/khu-vuc-sieu-thi-tai-tang-tret-cua-aeon-binh-tan.jpg',
     highlights: [
       { icon: '🌿', titleKey: 'home.hero.highlights.organic', descriptionKey: 'home.hero.highlights.organicDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }
@@ -28,7 +28,7 @@ const heroSlides = [
   {
     id: 'slide-3',
     image:
-      '',
+      'public/assets/sieu-thi2.jpg',
     highlights: [
       { icon: '⚡', titleKey: 'home.hero.highlights.delivery', descriptionKey: 'home.hero.highlights.deliveryDesc' },
       { icon: '🎁', titleKey: 'home.hero.highlights.discount', descriptionKey: 'home.hero.highlights.discountDesc' }

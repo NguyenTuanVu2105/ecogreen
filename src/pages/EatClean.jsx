@@ -70,6 +70,38 @@ function EatClean() {
             lng: 105.633112,
             open: "08:00 - 21:30",
         },
+        {
+            id: "manhquan",
+            name: "Siêu Thị Mạnh Quân",
+            address: "Thạch Hòa, Thạch Thất, Hanoi, Vietnam",
+            lat: 21.010409199576824,
+            lng: 105.5175211522726,
+            open: "08:00 - 21:30",
+        },
+        {
+            id: "bigtrend",
+            name: "BigTrend Hòa Lạc",
+            address: "Tòa Hòa Lạc Plaza, số 232 thôn 3, Thạch Hoà, Thạch Thất, Hà Nội 13113, Vietnam",
+            lat: 21.00960263557717,
+            lng: 105.5179309351856,
+            open: "24/7"
+        },
+        {
+            id: "5xu",
+            name: "5 Xu Mart",
+            address: "454 thôn 3, Thạch Hoà, Thạch Thất, Hà Nội, Vietnam",
+            lat: 21.00960263557717,
+            lng: 105.51830971929785,
+            open: "24/7"
+        },
+        {
+            id: "ohiomart",
+            name: "Ohio Mart",
+            address: "QL21A, Thạch Hoà, Thạch Thất, Hà Nội, Vietnam",
+            lat: 21.01001314462787,
+            lng: 105.51812912291706,
+            open: "24/7"
+        },
     ];
 
     // ====== "THỰC PHẨM" ĂN KIÊNG EATCLEAN (KHÔNG PHẢI MÓN SẴN) ======
@@ -112,7 +144,7 @@ function EatClean() {
                 price: 28000,
                 unit: "10 quả",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/2/25/Chicken_egg_2013.jpg",
+                    "public/assets/img_product/trungga.jpg",
             },
             {
                 id: 4,
@@ -125,7 +157,7 @@ function EatClean() {
                 price: 16000,
                 unit: "1 cây",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg",
+                    "public/assets/img_product/bongcaixanh.jpg",
             },
             {
                 id: 5,
@@ -138,7 +170,7 @@ function EatClean() {
                 price: 55000,
                 unit: "500g",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/9/99/Oatmeal_%28oats%29.jpg",
+                    "public/assets/img_product/yenmach.jpg",
             },
             {
                 id: 6,
@@ -151,7 +183,7 @@ function EatClean() {
                 price: 20000,
                 unit: "1kg",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/0/03/IPomoea_batatas_2.jpg",
+                    "public/assets/img_product/khoailang.jpg"
             },
             {
                 id: 7,
@@ -164,7 +196,7 @@ function EatClean() {
                 price: 65000,
                 unit: "300g",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chia_seeds.jpg",
+                    "public/assets/img_product/hatchia.jpg",
             },
             {
                 id: 8,
@@ -177,7 +209,7 @@ function EatClean() {
                 price: 30000,
                 unit: "4 hộp",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/8/8a/Plain_yogurt.jpg",
+                    "public/assets/img_product/suachuakhongduong.jpg",
             },
         ],
         []
@@ -430,7 +462,7 @@ Nếu phân tích được, trả về JSON với cấu trúc:
 
             let raw = json?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
 
-            console.log("🔥 RAW FROM GEMINI:", raw);
+            // console.log("🔥 RAW FROM GEMINI:", raw);
 
             // Google đôi khi trả JSON kèm dấu ` ```json … ```
             raw = raw.replace(/```json/g, "")
@@ -472,7 +504,7 @@ Nếu phân tích được, trả về JSON với cấu trúc:
     const callBmiAI = async () => {
         if (!GEMINI_API_KEY) {
             setBmiAnalysis({
-                error: "Chưa cấu hình GEMINI_API_KEY.",
+                error: "Chưa cấu hình API_KEY.",
             });
             return;
         }
@@ -750,7 +782,7 @@ Nếu phân tích được, trả về JSON với cấu trúc:
                 <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm space-y-4">
                     <h2 className="text-lg font-semibold text-slate-900 flex items-center gap-2">
                         <IconCamera className="h-5 w-5 text-emerald-500" />
-                        Phân tích ảnh món ăn (Gemini Vision)
+                        Phân tích ảnh món ăn
                     </h2>
                     <p className="text-sm text-slate-600">
                         Kéo ảnh món ăn của bạn vào khung dưới đây hoặc chọn file từ máy.
