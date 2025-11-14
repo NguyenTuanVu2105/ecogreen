@@ -83,7 +83,38 @@ export function IconArrowLeft({ className = 'h-5 w-5' }) {
     </Icon>
   );
 }
+export const IconCamera = ({ className }) => (
+  <svg
+    className={className}
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3 7h3l1.5-2h9L18 7h3v12H3V7z"
+    />
+    <circle cx="12" cy="13" r="4" />
+  </svg>
+);
 
+export const IconMap = ({ className }) => (
+  <svg
+    className={className}
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M9 20l-6-3V4l6 3 6-3 6 3v13l-6-3-6 3z"
+    />
+  </svg>
+);
 export function IconInfo({ className = 'h-5 w-5' }) {
   return (
     <Icon className={className}>

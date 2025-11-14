@@ -25,7 +25,8 @@ function AppHeader({ activePage = 'home', onNavigate = () => {} }) {
       { key: 'about', label: t('header.nav.about'), type: 'page' },
       { key: 'contact', label: t('header.nav.contact'), type: 'page' },
       { key: 'mealPlanner', label: t('header.nav.mealPlanner'), type: 'page' },
-      {key: 'bmi', label: 'Đo BMI sức khỏe', type: 'page' }
+      {key: 'bmi', label: 'Đo BMI sức khỏe', type: 'page' },
+      {key: 'eatClean' , label: 'Món ăn dinh dưỡng', type: 'page' }
     ],
     [t]
   );
